@@ -10,9 +10,7 @@ namespace Square_Area
     {
         static void Main(string[] args)
         {
-            Console.Write("Въведете Страна а = ");
-           var a = int.Parse(Console.ReadLine());
-            Console.Write("Лицето е: ");
+            var a = int.Parse(Console.ReadLine());
             Console.WriteLine(a * a);
         }
     }
